@@ -1,0 +1,90 @@
+# =========================
+# Flutter / Dart (all platforms)
+# =========================
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Flutter plugin registries (generated)
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# =========================
+# IDE / Editor
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Android
+# =========================
+android/.gradle/
+android/local.properties
+android/**/build/
+android/captures/
+android/.idea/
+
+# =========================
+# iOS / macOS
+# =========================
+# Xcode user data & derived data
+**/ios/Flutter/.last_build_id
+**/DerivedData/
+**/*.xcuserstate
+**/*.xcuserdata/
+
+# CocoaPods
+ios/Pods/
+ios/.symlinks/
+ios/Podfile.lock
+
+macos/Pods/
+macos/.symlinks/
+macos/Podfile.lock
+
+# Optional: if you use SwiftPM in the host projects
+**/.swiftpm/
+
+# =========================
+# Web
+# =========================
+web/.dart_tool/
+web/build/
+
+# =========================
+# Windows
+# =========================
+windows/**/build/
+
+# =========================
+# Linux
+# =========================
+linux/**/build/
+
+# =========================
+# Misc (tooling)
+# =========================
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+*.orig
